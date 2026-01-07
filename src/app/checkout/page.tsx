@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Script from "next/script";
 import { useCart } from "@/context/CartContext";
 import { supabase } from "@/lib/supabaseClient";
-import { Truck, CreditCard, Lock, Banknote } from "lucide-react";
+import { Truck, CreditCard, Lock, Banknote, ShieldCheck } from "lucide-react";
 
 declare global {
   interface Window {
@@ -211,4 +211,6 @@ export default function CheckoutPage() {
       `}</style>
     </div>
   );
-}
+          }
+                 
+      
